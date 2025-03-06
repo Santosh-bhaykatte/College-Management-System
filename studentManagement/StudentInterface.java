@@ -3,10 +3,9 @@ package core_Java.collegeManagementSystem.studentManagement;
 import java.util.Scanner;
 
 public class StudentInterface {
-    public void startStudentInterface() {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("\n========= STUDENT INTERFACE =========");
-
 
         //Create StudentManager instance
         StudentManager manager = new StudentManager();

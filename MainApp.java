@@ -19,16 +19,13 @@ public class MainApp {
             op = sc.nextInt();
             switch (op) {
                 case 1:
-                    StudentAdminInterface studentAdminInterface = new StudentAdminInterface();
-                    studentAdminInterface.startStudentAdminInterface();
+                    StudentAdminInterface.main(null);
                     break;
                 case 2:
-                    FacultyAdminInterface facultyAdminInterface = new FacultyAdminInterface();
-                    facultyAdminInterface.startFacultyAdminInterface();
+                    FacultyAdminInterface.main(null);
                     break;
                 case 3:
-                    StudentInterface studentInterface = new StudentInterface();
-                    studentInterface.startStudentInterface();
+                    StudentInterface.main(null);
                     break;
                 case 4:
                     System.out.println("\n>> Exiting Application..");

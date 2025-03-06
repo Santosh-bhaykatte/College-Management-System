@@ -6,7 +6,7 @@ import core_Java.collegeManagementSystem.facultyManagement.FacultyManager;
 import java.util.Scanner;
 
 public class FacultyAdminInterface {
-    public void startFacultyAdminInterface() {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("\n========= FACULTY ADMIN INTERFACE =========");
         System.out.println("\n>> Login To get Access:");
