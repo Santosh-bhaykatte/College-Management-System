@@ -49,3 +49,29 @@ This project began as a basic CRUD application for managing student records and 
    git clone https://github.com/yourusername/college-management-system.git
    cd college-management-system
 
+2. **Compile the Code:**
+  - Open the project in IntelliJ IDEA (or your preferred Java IDE).
+  - Build the project using the IDE's built-in build tools.
+  - Run the Application:
+
+3. **Student Administration:**
+  - Run StudentAdminInterface.java
+  - Faculty Administration: Run FacultyAdminInterface.java
+  - Student Login: Run StudentInterface.java
+  - Alternatively, run MainApp.java to navigate between interfaces.
+
+## Usage
+
+1. **Student Administration:**
+- Launch the StudentAdminInterface to manage student records.
+- Records are validated to prevent duplicate or invalid IDs.
+- Student records are automatically sorted by ID and saved to a CSV file for persistence.
+
+2. **Faculty Administration:**
+- Use the FacultyAdminInterface for faculty record management.
+- Perform operations such as adding, updating, deleting, sorting, and searching for faculty.
+
+3. **Student Login:**
+- Students log in using their registered email and password.
+- Upon successful login, the student's scorecard and details are displayed.
+
