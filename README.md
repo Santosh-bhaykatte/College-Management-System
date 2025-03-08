@@ -75,3 +75,14 @@ This project began as a basic CRUD application for managing student records and 
 - Students log in using their registered email and password.
 - Upon successful login, the student's scorecard and details are displayed.
 
+## Algorithms & Implementation
+
+1. **Binary Search:**
+- Used for efficient searching and updating of records in sorted arrays.
+
+2. **Bubble Sort:**
+- Ensures that student records remain in ascending order by student ID.
+
+3. **ID Duplication Check:**
+- Validates that no duplicate or invalid IDs are added to the system.
+
