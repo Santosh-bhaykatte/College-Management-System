@@ -11,11 +11,13 @@ import java.util.Scanner;
 
 //StudentManager class to manage student records
 public class StudentManager extends UtilityMethods implements StudentOperations {
+    private static final String FOLDER_NAME = "CollegeSystemData";
+    private static final String FIlE_NAME = "students.csv";
     private static final String CSV_FILE_PATH;  //Define the CSV file path on the Desktop
 
     static {    //static block
         String userHome = System.getProperty("user.home");
-        CSV_FILE_PATH = userHome + File.separator + "Desktop" + File.separator + "students.csv";
+        CSV_FILE_PATH = userHome + File.separator + "Desktop" + File.separator + FOLDER_NAME + File.separator + FIlE_NAME;
     }
     protected Student[] students;     //Array to manage students
     private static final int MAX_STUDENTS = 100;    //Maximum no. students to manage
