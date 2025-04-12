@@ -9,11 +9,13 @@ import java.util.Scanner;
 
 //FacultyManager class to manage faculty records
 public class FacultyManager extends UtilityMethods implements FacultyOperations {
+    private static final String FILE_NAME = "faculty.csv";
+    private static final String FOLDER_NAME = "CollegeSystemData";
     private static final String CSV_FILE_PATH;      //csv file path on desktop
 
     static {
         String userHome = System.getProperty("user.home");
-        CSV_FILE_PATH = userHome + File.separator + "Desktop" + File.separator + "faculty.csv";
+        CSV_FILE_PATH = userHome + File.separator + "Desktop" + File.separator + FOLDER_NAME + File.separator + FILE_NAME;
     }
     protected Faculty[] faculties;  //Array to manage faculties
     private final int MAX_FACULTIES = 5;        //Can Update to suit your needs
