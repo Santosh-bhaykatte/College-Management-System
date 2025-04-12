@@ -1,8 +1,8 @@
-package core_Java.collegeManagementSystem.facultyManagement;
+package project.collegeManagementSystem.facultyManagement;
 
-import core_Java.collegeManagementSystem.utils.InvalidFacultyAgeException;
-import core_Java.collegeManagementSystem.utils.FacultyOperations;
-import core_Java.collegeManagementSystem.utils.UtilityMethods;
+import project.collegeManagementSystem.utils.InvalidFacultyAgeException;
+import project.collegeManagementSystem.utils.FacultyOperations;
+import project.collegeManagementSystem.utils.UtilityMethods;
 
 import java.io.*;
 import java.util.Scanner;

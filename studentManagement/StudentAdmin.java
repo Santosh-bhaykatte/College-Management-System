@@ -1,4 +1,4 @@
-package core_Java.collegeManagementSystem.studentManagement;
+package project.collegeManagementSystem.studentManagement;
 
 public class StudentAdmin extends Person {
     public StudentAdmin() {

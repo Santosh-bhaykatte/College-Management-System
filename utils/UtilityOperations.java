@@ -1,4 +1,4 @@
-package core_Java.collegeManagementSystem.utils;
+package project.collegeManagementSystem.utils;
 
 public interface UtilityOperations {
     public default boolean checkIdForDuplication(int id) {

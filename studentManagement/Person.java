@@ -1,4 +1,4 @@
-package core_Java.collegeManagementSystem.studentManagement;
+package project.collegeManagementSystem.studentManagement;
 
 // abstract class for common behaviour - base class
 public abstract class Person {

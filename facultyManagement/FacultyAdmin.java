@@ -1,6 +1,6 @@
-package core_Java.collegeManagementSystem.facultyManagement;
+package project.collegeManagementSystem.facultyManagement;
 
-import core_Java.collegeManagementSystem.studentManagement.Person;
+import project.collegeManagementSystem.studentManagement.Person;
 
 public class FacultyAdmin extends Person {
     public FacultyAdmin() {

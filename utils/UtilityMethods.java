@@ -1,4 +1,4 @@
-package core_Java.collegeManagementSystem.utils;
+package project.collegeManagementSystem.utils;
 
 public class UtilityMethods {
     //Method to handle invalid age

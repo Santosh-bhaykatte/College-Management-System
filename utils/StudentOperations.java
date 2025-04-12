@@ -1,8 +1,8 @@
-package core_Java.collegeManagementSystem.utils;
+package project.collegeManagementSystem.utils;
 
-import core_Java.collegeManagementSystem.studentManagement.Student;
-import core_Java.collegeManagementSystem.studentManagement.StudentManager;
-import core_Java.collegeManagementSystem.studentManagement.Subjects;
+import project.collegeManagementSystem.studentManagement.Student;
+import project.collegeManagementSystem.studentManagement.StudentManager;
+import project.collegeManagementSystem.studentManagement.Subjects;
 
 public interface StudentOperations extends UtilityOperations {
     public void addStudent(Student student);        //Add Student

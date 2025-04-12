@@ -1,11 +1,11 @@
-package core_Java.collegeManagementSystem.studentManagement;
+package project.collegeManagementSystem.studentManagement;
 
 import java.io.*;   //For File Operations
 
-import core_Java.collegeManagementSystem.utils.InvalidStudentAgeException;
-import core_Java.collegeManagementSystem.utils.InvalidMarksException;
-import core_Java.collegeManagementSystem.utils.StudentOperations;
-import core_Java.collegeManagementSystem.utils.UtilityMethods;
+import project.collegeManagementSystem.utils.InvalidStudentAgeException;
+import project.collegeManagementSystem.utils.InvalidMarksException;
+import project.collegeManagementSystem.utils.StudentOperations;
+import project.collegeManagementSystem.utils.UtilityMethods;
 
 import java.util.Scanner;
 

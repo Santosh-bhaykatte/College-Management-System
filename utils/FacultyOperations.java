@@ -1,7 +1,7 @@
-package core_Java.collegeManagementSystem.utils;
+package project.collegeManagementSystem.utils;
 
-import core_Java.collegeManagementSystem.facultyManagement.Faculty;
-import core_Java.collegeManagementSystem.facultyManagement.FacultyManager;
+import project.collegeManagementSystem.facultyManagement.Faculty;
+import project.collegeManagementSystem.facultyManagement.FacultyManager;
 
 public interface FacultyOperations extends UtilityOperations {
     public void addFaculty(Faculty faculty);    //Add faculty

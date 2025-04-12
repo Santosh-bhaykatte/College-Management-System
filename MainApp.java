@@ -1,8 +1,8 @@
-package core_Java.collegeManagementSystem;
+package project.collegeManagementSystem;
 
-import core_Java.collegeManagementSystem.studentManagement.StudentAdminInterface;
-import core_Java.collegeManagementSystem.facultyManagement.FacultyAdminInterface;
-import core_Java.collegeManagementSystem.studentManagement.StudentInterface;
+import project.collegeManagementSystem.studentManagement.StudentAdminInterface;
+import project.collegeManagementSystem.facultyManagement.FacultyAdminInterface;
+import project.collegeManagementSystem.studentManagement.StudentInterface;
 
 import java.util.Scanner;
 

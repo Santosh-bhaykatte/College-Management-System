@@ -1,4 +1,4 @@
-package core_Java.collegeManagementSystem.utils;
+package project.collegeManagementSystem.utils;
 
 public class InvalidFacultyAgeException extends Exception {
     public InvalidFacultyAgeException(String message) {

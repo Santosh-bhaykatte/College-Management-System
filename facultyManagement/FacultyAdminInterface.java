@@ -1,7 +1,4 @@
-package core_Java.collegeManagementSystem.facultyManagement;
-
-import core_Java.collegeManagementSystem.facultyManagement.FacultyAdmin;
-import core_Java.collegeManagementSystem.facultyManagement.FacultyManager;
+package project.collegeManagementSystem.facultyManagement;
 
 import java.util.Scanner;
 
